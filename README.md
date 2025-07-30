@@ -24,12 +24,15 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Getting Started Locally on Windows
 
 Laravel Herd + Git Bash = bash_profile needed as follows:
-alias php="php.bat"
-alias herd="herd.bat"
-alias laravel="laravel.bat"
-alias composer="composer.bat"
+    alias php="php.bat"
+    alias herd="herd.bat"
+    alias laravel="laravel.bat"
+    alias composer="composer.bat"
 
 Then, create .env from .env.example
+
+Then run to populate key:
+php artisan key:generate
 
 Then, create a database.sqlite file in /database
 
