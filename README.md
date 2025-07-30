@@ -21,6 +21,25 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Getting Started Locally on Windows
+
+Laravel Herd + Git Bash = bash_profile needed as follows:
+alias php="php.bat"
+alias herd="herd.bat"
+alias laravel="laravel.bat"
+alias composer="composer.bat"
+
+Then, create .env from .env.example
+
+Then, create a database.sqlite file in /database
+
+Then run 
+
+npm install && npm run build
+composer install
+
+And the local application will deploy.
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
